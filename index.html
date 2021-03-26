@@ -1,0 +1,42 @@
+# ToshKempe.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title of the game (not shown on user interface) -->
+    <title>Hangman</title>
+    
+    <!-- links CSS file -->
+    <link rel="stylesheet" href="hangman.css"></link>
+
+    </head>
+   <body> 
+   
+   <!-- Heading of the game --> 
+   <h1>Hangman</h1>
+
+   <!-- explanation on how to play the game -->
+<p>Click on the alphabets to guess the word! You have 10 lives</p>
+
+<!-- where the randomly selected word of the category is places -->
+<p id="UnderScore"></p>
+
+<!-- displays picture of hangman -->
+<img id="hangmanPicture" src='hangman image/hangman0.jpg' alt = ""></img>
+
+   <!-- identifies the mistakes -->
+   <div class=><span id='mistakes'></span><span id='maxWrong'></span></div>
+   
+   <!-- needed to create the buttons for letters -->
+   <div id="keyboard"></div>
+   <button class="btn btn-info" onClick="reset()">New word</button>
+ </div>
+
+<!-- links JavaScript file -->
+<script src="hangman.js"></script>
+
+</body>
+</html>
