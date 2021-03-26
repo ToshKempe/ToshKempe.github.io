@@ -102,3 +102,4 @@ var sports = [
   randomWord()
   generateButtons()
   guessedWord()
+  updatePicture()
