@@ -85,14 +85,14 @@ var sports = [
   
   //updates/draws hangman picture when user incorrectly guesses the word
   function updatePicture() {
-    document.getElementById('hangmanPicture').src = './hangman image/hangman' + mistakes + '.jpg'
+    document.getElementById('hangmanPicture').src = './images/hangman' + mistakes + '.jpg'
   }
   
   //fucntions the "newword" button (resets everything and displays new word to guess)
   function reset() {
     mistakes = 0
     guessed = []
-    document.getElementById('hangmanPicture').src = './hangman image/hangman0.jpg'
+    document.getElementById('hangmanPicture').src = './images/hangman0.jpg'
   
     randomWord()
     guessedWord()
